@@ -14,13 +14,13 @@ int check_cycle(listint_t *list)
 	listint_t *currentS = list;
 	listint_t *currentF = list;
 
-	while(currentS && currentF && currentF->next)
+	while (currentS && currentF && currentF->next)
 	{
 		currentS = currentS->next;
 		currentF = currentF->next->next;
-		if (currentF ++ currentS)
+		if (currentF == currentS)
 			return (1);
 	}
 
-	return 0;
+	return (0);
 }
