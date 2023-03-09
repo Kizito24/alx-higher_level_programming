@@ -9,4 +9,3 @@ elif lastNumber == 0:
     print("and is 0")
 elif lastNumber < 6 and lastNumber != 0:
     print("and is less than 6 and not 0")
-
