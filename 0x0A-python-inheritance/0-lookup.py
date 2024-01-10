@@ -1,11 +1,7 @@
 #!/usr/bin/python3
-"""
-the module returns the list of available attributes and methods of an object
-"""
+""" My 0-lookup Module """
 
 
 def lookup(obj):
-    """
-    returns the list of available attributes and methods of an object
-    """
+    """ my lookup function """
     return dir(obj)

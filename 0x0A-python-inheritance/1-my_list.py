@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""
-A class MyList that inherits from list
-"""
+""" My task 1 module """
 
 
 class MyList(list):
-    """
-    MyList inherits from builtin list class
-    """
-
+    """ MyList Class """
     def print_sorted(self):
-        """
-        A public instance that prints the list, but sorted (ascending sort)
-        """
-        sorted_list = sorted(self)
-        print(sorted_list)
+        """ Ascending sort function """
+        result = sorted(self)
+        print(result)

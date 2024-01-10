@@ -1,12 +1,7 @@
 #!/usr/bin/python3
-"""
-An empty class BaseGeometry
-"""
+""" Module for task 5 """
 
 
 class BaseGeometry:
-    """
-    an empty class BaseGeometry
-    """
-
+    """ My base geometry class """
     pass

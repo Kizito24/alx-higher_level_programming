@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""
-A class BaseGeometry
-"""
+""" Module for task 6 """
 
 
 class BaseGeometry:
-    """
-    A class BaseGeometry
-    """
+    """ My base geometry class """
 
     def area(self):
-        """
-        A Public instance that raises an Exception with the message area()
-        is not implemented
-        """
+        """ Calculates area """
         raise Exception("area() is not implemented")
